@@ -91,7 +91,7 @@ namespace csharp_lista_indirizzi
 			stringa += $"\tCittà: {this.city}\n";
 			stringa += $"\tProvincia: {this.province}\n";
 			stringa += $"\tZIP: {this.zip}\n";
-			stringa += "-----------------------------------";
+			stringa += "----------------------------------------------------";
 			return stringa;
 		}
 	}
