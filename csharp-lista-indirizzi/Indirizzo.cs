@@ -14,10 +14,10 @@ namespace csharp_lista_indirizzi
 		private string street;
 		private string city;
 		private string province;
-		private int zip;
+		private string zip;
 		
 		//COSTRUTTORE
-		public Indirizzo(string nome, string cognome, string strada, string citta, string provincia, int cap)
+		public Indirizzo(string nome, string cognome, string strada, string citta, string provincia, string cap)
 		{
 			this.name = nome;
 				if(this.name == "")
@@ -78,7 +78,7 @@ namespace csharp_lista_indirizzi
 			return this.province;
 		}
 
-		public int GetZip()
+		public string GetZip()
 		{
 			return this.zip;
 		}

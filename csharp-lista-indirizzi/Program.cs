@@ -18,10 +18,9 @@ try
 			}
 			else
 			{
-				int cap = int.Parse(informazioniSeparate[5]);
 				try
 				{
-					Indirizzo IndirizzoLetto = new Indirizzo(informazioniSeparate[0], informazioniSeparate[1], informazioniSeparate[2], informazioniSeparate[3], informazioniSeparate[4], cap);
+					Indirizzo IndirizzoLetto = new Indirizzo(informazioniSeparate[0], informazioniSeparate[1], informazioniSeparate[2], informazioniSeparate[3], informazioniSeparate[4], informazioniSeparate[5]);
 					listaIndirizzi.Add(IndirizzoLetto);
 				}catch (ArgumentException e)
 				{
